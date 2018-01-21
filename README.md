@@ -20,28 +20,24 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-## Build Setup with `makefile`
+## Build Setup with `makefile` (requires Docker)
 
 To run `npm install` and install node_modules in the PWD:
-
 ```
 make node_modules
 ```
 
 To run the npm dev environment with hotloading:
-
 ```
 make dev
 ```
 
 To build a distributable version of this site:
-
 ```
 make dist
 ```
 
 To clean node_modules and the dist folder:
-
 ```
 make clean
 ```
